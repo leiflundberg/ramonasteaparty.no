@@ -1,8 +1,38 @@
-iframe[src*=youtube] {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    padding-bottom: 10px;
+@font-face {
+    font-family: "KG Summer Sunshine";
+    src: url('KGSummerSunshine.ttf');
+  }
+
+#logo {
+    font-family: "KG Summer Sunshine";
+}
+
+.navbar-custom {
+    background-color: #30D5C8;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(0, 0, 0, 0.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #535353;
+}
+
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.fa {
+    color: #30D5C8 !important;
 }
 
 html { scroll-behavior: smooth; }
