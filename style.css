@@ -1,10 +1,9 @@
 @font-face {
     font-family: "KG Summer Sunshine";
     src: url('KGSummerSunshine.ttf');
-  }
+}
 
-
-.navbar-custom {
+  .navbar-custom {
     background-color: #30D5C8;
 }
 /* change the brand and text color */
@@ -31,7 +30,6 @@
 #gigs {
     font-family: "KG Summer Sunshine";
     color: black;
-    padding-right: 1em;
 }
 
 iframe[src*=youtube] {
