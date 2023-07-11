@@ -41,6 +41,10 @@ iframe[src*=youtube] {
     color: #30D5C8 !important;
 }
 
+.btn-light {
+    background-color: #30D5C8 !important;
+}
+
 html { scroll-behavior: smooth; }
 
 body { margin-top:5rem; }
