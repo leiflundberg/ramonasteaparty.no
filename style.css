@@ -25,6 +25,10 @@
     color: #535353;
 }
 
+#logo {
+    color: black;
+    padding-right: 1em;
+}
 
 iframe[src*=youtube] {
     width: 100%;
