@@ -3,9 +3,6 @@
     src: url('KGSummerSunshine.ttf');
   }
 
-#logo {
-    font-family: "KG Summer Sunshine";
-}
 
 .navbar-custom {
     background-color: #30D5C8;
@@ -26,6 +23,13 @@
 }
 
 #logo {
+    font-family: "KG Summer Sunshine";
+    color: black;
+    padding-right: 1em;
+}
+
+#gigs {
+    font-family: "KG Summer Sunshine";
     color: black;
     padding-right: 1em;
 }
