@@ -8,6 +8,11 @@
     src: url('KGSummerSunshineBlackout.ttf');
 }
 
+@font-face {
+    font-family: "KG Summer Sunshine Shadow";
+    src: url('KGSummerSunshineShadow.ttf');
+}
+
 .navbar-custom {
     background-color: #30D5C8;
 }
@@ -47,6 +52,12 @@
 #gigsSecret {
     font-family: "KG Summer Sunshine Blackout";
     color: black;
+}
+
+#gigsSecreter {
+    font-family: "KG Summer Sunshine Shadow";
+    color: black;
+    padding-right: 1em;
 }
 
 iframe[src*=youtube] {
