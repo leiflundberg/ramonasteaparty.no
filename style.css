@@ -3,7 +3,12 @@
     src: url('KGSummerSunshine.ttf');
 }
 
-  .navbar-custom {
+@font-face {
+    font-family: "KG Summer Sunshine Blackout";
+    src: url('KGSummerSunshineBlackout.ttf');
+}
+
+.navbar-custom {
     background-color: #30D5C8;
 }
 /* change the brand and text color */
@@ -27,8 +32,20 @@
     padding-right: 1em;
 }
 
+#logoSecret {
+    font-family: "KG Summer Sunshine Blackout";
+    color: black;
+    padding-right: 1em;
+}
+
 #gigs {
     font-family: "KG Summer Sunshine";
+    color: black;
+}
+
+
+#gigsSecret {
+    font-family: "KG Summer Sunshine Blackout";
     color: black;
 }
 
