@@ -1,16 +1,6 @@
 @font-face {
-    font-family: "KG Summer Sunshine";
-    src: url('KGSummerSunshine.ttf');
-}
-
-@font-face {
     font-family: "KG Summer Sunshine Blackout";
     src: url('KGSummerSunshineBlackout.ttf');
-}
-
-@font-face {
-    font-family: "KG Summer Sunshine Shadow";
-    src: url('KGSummerSunshineShadow.ttf');
 }
 
 .navbar-custom {
@@ -32,32 +22,14 @@
 }
 
 #logo {
-    font-family: "KG Summer Sunshine";
-    color: black;
-    padding-right: 1em;
-}
-
-#logoSecret {
     font-family: "KG Summer Sunshine Blackout";
     color: black;
     padding-right: 1em;
 }
 
 #gigs {
-    font-family: "KG Summer Sunshine";
-    color: black;
-}
-
-
-#gigsSecret {
     font-family: "KG Summer Sunshine Blackout";
     color: black;
-}
-
-#gigsSecreter {
-    font-family: "KG Summer Sunshine Shadow";
-    color: black;
-    padding-right: 1em;
 }
 
 iframe[src*=youtube] {
